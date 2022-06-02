@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="CartViewController" customModule="ProductViewer" customModuleProvider="target">
+            <connections>
+                <outlet property="cartTableView" destination="mk8-MI-2Px" id="P7N-Vu-4Y9"/>
+                <outlet property="view" destination="hhE-Dk-Alx" id="8Cm-ki-7nz"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="hhE-Dk-Alx">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="mk8-MI-2Px">
+                    <rect key="frame" x="0.0" y="44" width="414" height="818"/>
+                    <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                </tableView>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="VRL-Hx-GE4"/>
+            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+            <constraints>
+                <constraint firstItem="VRL-Hx-GE4" firstAttribute="trailing" secondItem="mk8-MI-2Px" secondAttribute="trailing" id="1HX-Px-i5r"/>
+                <constraint firstItem="mk8-MI-2Px" firstAttribute="top" secondItem="VRL-Hx-GE4" secondAttribute="top" id="A7c-aK-Ynu"/>
+                <constraint firstItem="VRL-Hx-GE4" firstAttribute="bottom" secondItem="mk8-MI-2Px" secondAttribute="bottom" id="SQP-vT-UEj"/>
+                <constraint firstItem="mk8-MI-2Px" firstAttribute="leading" secondItem="VRL-Hx-GE4" secondAttribute="leading" id="wFL-vn-ZEj"/>
+            </constraints>
+            <point key="canvasLocation" x="-332" y="63"/>
+        </view>
+    </objects>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
